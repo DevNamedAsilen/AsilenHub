@@ -1,1 +1,189 @@
-LS0gQVNJTEVOIEhVQiB8IFYyNiBGVUxMIEFVVE8gfCBPV05FUjogTHV1SG9hbmdUaGluaApsb2NhbCBMUCA9IGdhbWU6R2V0U2VydmljZSgiUGxheWVycyIpLkxvY2FsUGxheWVyCmxvY2FsIFR3ZWVuU2VydmljZSA9IGdhbWU6R2V0U2VydmljZSgiVHdlZW5TZXJ2aWNlIikKbG9jYWwgUnVuU2VydmljZSA9IGdhbWU6R2V0U2VydmljZSgiUnVuU2VydmljZSIpCmxvY2FsIFZJTSA9IGdhbWU6R2V0U2VydmljZSgiVmlydHVhbElucHV0TWFuYWdlciIpCmxvY2FsIEdTID0gZ2FtZTpHZXRTZXJ2aWNlKCJHdWlTZXJ2aWNlIikKCi0tIEJp4bq/biBj4bqldSBow6xuaApfRy5UZWFtID0gIlBpcmF0ZXMiIC0tIFThu7EgxJHhu5luZyBjaOG7jW4gcGhlIEjhuqNpIHThurdjCl9HLktlblRyaWdnZXJlZCA9IGZhbHNlIAoKLS0gMS4gSMOATSBU4buwIENI4buMTiBURUFNIChORVcpCmxvY2FsIGZ1bmN0aW9uIEF1dG9TZWxlY3RUZWFtKCkKICAgIHBjYWxsKGZ1bmN0aW9uKCkKICAgICAgICByZXBlYXQgdGFzay53YWl0KDAuNSkgdW50aWwgTFA6RmluZEZpcnN0Q2hpbGQoIlBsYXllckd1aSIpCiAgICAgICAgbG9jYWwgbWFpbkd1aSA9IExQLlBsYXllckd1aTpXYWl0Rm9yQ2hpbGQoIk1haW4iLCAxMCkKICAgICAgICBpZiBtYWluR3VpIHRoZW4KICAgICAgICAgICAgbG9jYWwgY2hvb3NlVGVhbSA9IG1haW5HdWk6RmluZEZpcnN0Q2hpbGQoIkNob29zZVRlYW0iKQogICAgICAgICAgICBpZiBjaG9vc2VUZWFtIGFuZCBjaG9vc2VUZWFtLlZpc2libGUgdGhlbgogICAgICAgICAgICAgICAgLS0gVMOsbSBuw7p0IGLhuqVtIHBoZSBI4bqjaSB04bq3YwogICAgICAgICAgICAgICAgbG9jYWwgcGlyYXRlc0J0biA9IGNob29zZVRlYW06RmluZEZpcnN0Q2hpbGQoIkNvbnRhaW5lciIpCiAgICAgICAgICAgICAgICAgICAgOkZpbmRGaXJzdENoaWxkKCJQaXJhdGVzIikKICAgICAgICAgICAgICAgICAgICA6RmluZEZpcnN0Q2hpbGQoIkZyYW1lIikKICAgICAgICAgICAgICAgICAgICA6RmluZEZpcnN0Q2hpbGQoIlZpZXdwb3J0RnJhbWUiKQogICAgICAgICAgICAgICAgICAgIDpGaW5kRmlyc3RDaGlsZCgiVGV4dEJ1dHRvbiIpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGlmIHBpcmF0ZXNCdG4gdGhlbgogICAgICAgICAgICAgICAgICAgIC0tIFRo4buxYyBoaeG7h24gY8O6IGNo4bqhbSAiduG6rXQgbMO9IiDEkeG7gyBjaOG7jW4gcGhlCiAgICAgICAgICAgICAgICAgICAgbG9jYWwgeCA9IHBpcmF0ZXNCdG4uQWJzb2x1dGVQb3NpdGlvbi5YICsgKHBpcmF0ZXNCdG4uQWJzb2x1dGVTaXplLlggLyAyKQogICAgICAgICAgICAgICAgICAgIGxvY2FsIHkgPSBwaXJhdGVzQnRuLkFic29sdXRlUG9zaXRpb24uWSArIChwaXJhdGVzQnRuLkFic29sdXRlU2l6ZS5ZIC8gMikgKyAzNgogICAgICAgICAgICAgICAgICAgIFZJTTpTZW5kTW91c2VCdXR0b25FdmVudCh4LCB5LCAwLCB0cnVlLCBnYW1lLCAxKQogICAgICAgICAgICAgICAgICAgIHRhc2sud2FpdCgwLjEpCiAgICAgICAgICAgICAgICAgICAgVklNOlNlbmRNb3VzZUJ1dHRvbkV2ZW50KHgsIHksIDAsIGZhbHNlLCBnYW1lLCAxKQogICAgICAgICAgICAgICAgICAgIHByaW50KCLimaUgS3VydW1pOiDEkMOjIGdpYSBuaOG6rXAgcGhlIEjhuqNpIHThurdjIGNobyBuZ8OgaSBUaOG7i25oISDimaUiKQogICAgICAgICAgICAgICAgZW5kCiAgICAgICAgICAgIGVuZAogICAgICAgIGVuZAogICAgZW5kKQplbmQKCi0tIDIuIEdJQU8gREnhu4ZOIFBSRU1JVU0gQ8OCTiDEkOG7kEkKbG9jYWwgc2cgPSBJbnN0YW5jZS5uZXcoIlNjcmVlbkd1aSIsIExQLlBsYXllckd1aSkKc2cuTmFtZSA9ICJBc2lsZW5IdWJfVjI2X0Z1bGxBdXRvIgpzZy5SZXNldE9uU3Bhd24gPSBmYWxzZQoKbG9jYWwgbWFpbiA9IEluc3RhbmNlLm5ldygiRnJhbWUiLCBzZykKbWFpbi5TaXplID0gVURpbTIubmV3KDAsIDMwMCwgMCwgMjYwKQptYWluLlBvc2l0aW9uID0gVURpbTIubmV3KDAuNSwgLTE1MCwgMC4yLCAwKQptYWluLkJhY2tncm91bmRDb2xvcjMgPSBDb2xvcjMuZnJvbVJHQigxMiwgMTIsIDEyKQptYWluLkJvcmRlclNpemVQaXhlbCA9IDAKSW5zdGFuY2UubmV3KCJVSUNvcm5lciIsIG1haW4pLkNvcm5lclJhZGl1cyA9IFVEaW0ubmV3KDAsIDE1KQpsb2NhbCBzdHJva2UgPSBJbnN0YW5jZS5uZXcoIlVJU3Ryb2tlIiwgbWFpbikKc3Ryb2tlLlRoaWNrbmVzcyA9IDMKc3Ryb2tlLkNvbG9yID0gQ29sb3IzLmZyb21SR0IoMjU1LCAwLCAwKQoKLS0gTE9HTyBDSFXhuqhOIChDxINuIGdp4buvYSkKbG9jYWwgYXZhdGFyID0gSW5zdGFuY2UubmV3KCJJbWFnZUxhYmVsIiwgbWFpbikKYXZhdGFyLlNpemUgPSBVRGltMi5uZXcoMCwgNzUsIDAsIDc1KQphdmF0YXIuUG9zaXRpb24gPSBVRGltMi5uZXcoMC41LCAtMzcuNSwgMC4wNiwgMCkKYXZhdGFyLkltYWdlID0gInJieHRodW1iOi8vdHlwZT1Bc3NldCZpZD0xMjE1NzI4Njg3OTc1MjEmdz00MjAmaD00MjAiCmF2YXRhci5CYWNrZ3JvdW5kVHJhbnNwYXJlbmN5ID0gMQpJbnN0YW5jZS5uZXcoIlVJQ29ybmVyIiwgYXZhdGFyKS5Db3JuZXJSYWRpdXMgPSBVRGltLm5ldygwLCAxMCkKCi0tIFRFWFQgSU5GTwpsb2NhbCBmdW5jdGlvbiBBZGRMYWJlbCh0ZXh0LCB5UG9zLCBzaXplLCBjb2xvciwgaXNCb2xkKQogICAgbG9jYWwgbGJsID0gSW5zdGFuY2UubmV3KCJUZXh0TGFiZWwiLCBtYWluKQogICAgbGJsLlNpemUgPSBVRGltMi5uZXcoMSwgMCwgMCwgMjUpCiAgICBsYmwuUG9zaXRpb24gPSBVRGltMi5uZXcoMCwgMCwgeVBvcywgMCkKICAgIGxibC5UZXh0ID0gdGV4dAogICAgbGJsLlRleHRDb2xvcjMgPSBjb2xvcgogICAgbGJsLkZvbnQgPSBpc0JvbGQgYW5kIEVudW0uRm9udC5Hb3RoYW1Cb2xkIG9yIEVudW0uRm9udC5Hb3RoYW1NZWRpdW0KICAgIGxibC5UZXh0U2l6ZSA9IHNpemUKICAgIGxibC5CYWNrZ3JvdW5kVHJhbnNwYXJlbmN5ID0gMQogICAgbGJsLlRleHRYQWxpZ25tZW50ID0gRW51bS5UZXh0WEFsaWdubWVudC5DZW50ZXIKICAgIHJldHVybiBsYmwKZW5kCgpBZGRMYWJlbCgiQVVUTyBGQVJNIE9CU0VSVkFUSU9OIiwgMC4zOCwgMTYsIENvbG9yMy5uZXcoMSwxLDEpLCB0cnVlKQpBZGRMYWJlbCgiQVNJTEVOIEhVQiB8IFBSRU1JVU0iLCAwLjQ4LCAxNCwgQ29sb3IzLmZyb21SR0IoMjU1LCAwLCAwKSwgdHJ1ZSkKQWRkTGFiZWwoIk5hbWU6IEx1dUhvYW5nVGhpbmgiLCAwLjYwLCAxNCwgQ29sb3IzLm5ldygxLDEsMSksIGZhbHNlKQpBZGRMYWJlbCgiQWdlOiAxOSIsIDAuNjgsIDE0LCBDb2xvcjMuZnJvbVJHQigyMDAsIDIwMCwgMjAwKSwgZmFsc2UpCgpsb2NhbCB0aW1lclR4dCA9IEFkZExhYmVsKCJBVVRPIEhPUDogMzBzIiwgMC44MiwgMjIsIENvbG9yMy5mcm9tUkdCKDI1NSwgMjU1LCAwKSwgdHJ1ZSkKCi0tID09PSBbIEPDgUMgSMOATSBD4buQVCBMw5VJIF0gPT09Cgpsb2NhbCBmdW5jdGlvbiBGb3JjZUtlbigpCiAgICBpZiBfRy5LZW5UcmlnZ2VyZWQgdGhlbiByZXR1cm4gZW5kCiAgICBwY2FsbChmdW5jdGlvbigpCiAgICAgICAgbG9jYWwga2VuRnJhbWUgPSBMUC5QbGF5ZXJHdWk6RmluZEZpcnN0Q2hpbGQoIkJvdW5kQWN0aW9uS2VuIiwgdHJ1ZSkKICAgICAgICBpZiBrZW5GcmFtZSB0aGVuCiAgICAgICAgICAgIGxvY2FsIGJ0biA9IGtlbkZyYW1lOkZpbmRGaXJzdENoaWxkKCJCdXR0b24iKQogICAgICAgICAgICBpZiBidG4gYW5kIGJ0bi5WaXNpYmxlIHRoZW4KICAgICAgICAgICAgICAgIGxvY2FsIHggPSBidG4uQWJzb2x1dGVQb3NpdGlvbi5YICsgKGJ0bi5BYnNvbHV0ZVNpemUuWCAvIDIpCiAgICAgICAgICAgICAgICBsb2NhbCB5ID0gYnRuLkFic29sdXRlUG9zaXRpb24uWSArIChidG4uQWJzb2x1dGVTaXplLlkgLyAyKSArIDM2IAogICAgICAgICAgICAgICAgVklNOlNlbmRNb3VzZUJ1dHRvbkV2ZW50KHgsIHksIDAsIHRydWUsIGdhbWUsIDEpCiAgICAgICAgICAgICAgICB0YXNrLndhaXQoMC4xKQogICAgICAgICAgICAgICAgVklNOlNlbmRNb3VzZUJ1dHRvbkV2ZW50KHgsIHksIDAsIGZhbHNlLCBnYW1lLCAxKQogICAgICAgICAgICAgICAgX0cuS2VuVHJpZ2dlcmVkID0gdHJ1ZSAKICAgICAgICAgICAgZW5kCiAgICAgICAgZW5kCiAgICBlbmQpCmVuZAoKbG9jYWwgZnVuY3Rpb24gRmx5VG9Nb25zdGVyKCkKICAgIGxvY2FsIGNoYXIgPSBMUC5DaGFyYWN0ZXIgb3IgTFAuQ2hhcmFjdGVyQWRkZWQ6V2FpdCgpCiAgICBsb2NhbCBocnAgPSBjaGFyOldhaXRGb3JDaGlsZCgiSHVtYW5vaWRSb290UGFydCIsIDUpCiAgICBpZiBub3QgaHJwIHRoZW4gcmV0dXJuIGVuZAogICAgbG9jYWwgdGFyZ2V0LCBkaXN0ID0gbmlsLCBtYXRoLmh1Z2UKICAgIGZvciBfLCBmIGluIHBhaXJzKHt3b3Jrc3BhY2U6RmluZEZpcnN0Q2hpbGQoIkVuZW1pZXMiKSwgd29ya3NwYWNlOkZpbmRGaXJzdENoaWxkKCJOUENzIiksIHdvcmtzcGFjZX0pIGRvCiAgICAgICAgaWYgZiB0aGVuCiAgICAgICAgICAgIGZvciBfLCBtIGluIHBhaXJzKGY6R2V0Q2hpbGRyZW4oKSkgZG8KICAgICAgICAgICAgICAgIGlmIG06SXNBKCJNb2RlbCIpIGFuZCBtOkZpbmRGaXJzdENoaWxkKCJIdW1hbm9pZCIpIGFuZCBtOkZpbmRGaXJzdENoaWxkKCJIdW1hbm9pZFJvb3RQYXJ0IikgYW5kIG0uSHVtYW5vaWQuSGVhbHRoID4gMCBhbmQgbS5OYW1lIH49IExQLk5hbWUgdGhlbgogICAgICAgICAgICAgICAgICAgIGxvY2FsIGQgPSAoaHJwLlBvc2l0aW9uIC0gbS5IdW1hbm9pZFJvb3RQYXJ0LlBvc2l0aW9uKS5NYWduaXR1ZGUKICAgICAgICAgICAgICAgICAgICBpZiBkIDwgZGlzdCBhbmQgZCA8IDUwMDAgdGhlbiB0YXJnZXQgPSBtOyBkaXN0ID0gZCBlbmQKICAgICAgICAgICAgICAgIGVuZAogICAgICAgICAgICBlbmQKICAgICAgICAgICAgaWYgdGFyZ2V0IGFuZCBmIH49IHdvcmtzcGFjZSB0aGVuIGJyZWFrIGVuZAogICAgICAgIGVuZAogICAgZW5kCiAgICBpZiB0YXJnZXQgdGhlbgogICAgICAgIEZvcmNlS2VuKCkKICAgICAgICBmb3IgXywgcCBpbiBwYWlycyhjaGFyOkdldERlc2NlbmRhbnRzKCkpIGRvIGlmIHA6SXNBKCJCYXNlUGFydCIpIHRoZW4gcC5DYW5Db2xsaWRlID0gZmFsc2UgZW5kIGVuZAogICAgICAgIFR3ZWVuU2VydmljZTpDcmVhdGUoaHJwLCBUd2VlbkluZm8ubmV3KGRpc3QvMjUwLCBFbnVtLkVhc2luZ1N0eWxlLkxpbmVhciksIHtDRnJhbWUgPSB0YXJnZXQuSHVtYW5vaWRSb290UGFydC5DRnJhbWUgKiBDRnJhbWUubmV3KDAsIDEwLCAwKX0pOlBsYXkoKQogICAgZW5kCmVuZAoKLS0gPT09IFsgSOG7hiBUSOG7kE5HIE5Iw4BZIFNFUlZFUiBdID09PQpsb2NhbCBmdW5jdGlvbiBPcGVuU2VydmVyVGFiKCkKICAgIHBjYWxsKGZ1bmN0aW9uKCkKICAgICAgICBmb3IgXywgdiBpbiBwYWlycyhMUC5QbGF5ZXJHdWk6R2V0RGVzY2VuZGFudHMoKSkgZG8KICAgICAgICAgICAgaWYgdi5OYW1lID09ICJTZXJ2ZXJCcm93c2VyQnV0dG9uIiBhbmQgdi5QYXJlbnQuTmFtZTpsb3dlcigpID09ICJmcmFtZSIgdGhlbgogICAgICAgICAgICAgICAgbG9jYWwgeCA9IHYuQWJzb2x1dGVQb3NpdGlvbi5YICsgKHYuQWJzb2x1dGVTaXplLlggLyAyKQogICAgICAgICAgICAgICAgbG9jYWwgeSA9IHYuQWJzb2x1dGVQb3NpdGlvbi5ZICsgKHYuQWJzb2x1dGVTaXplLlkgLyAyKSArIDM2CiAgICAgICAgICAgICAgICBWSU06U2VuZE1vdXNlQnV0dG9uRXZlbnQoeCwgeSwgMCwgdHJ1ZSwgZ2FtZSwgMSkKICAgICAgICAgICAgICAgIHRhc2sud2FpdCgwLjA1KQogICAgICAgICAgICAgICAgVklNOlNlbmRNb3VzZUJ1dHRvbkV2ZW50KHgsIHksIDAsIGZhbHNlLCBnYW1lLCAxKQogICAgICAgICAgICBlbmQKICAgICAgICBlbmQKICAgIGVuZCkKZW5kCgpsb2NhbCBmdW5jdGlvbiBTcGFtSm9pblNlcnZlcigpCiAgICB0YXNrLnNwYXduKGZ1bmN0aW9uKCkKICAgICAgICBsb2NhbCBzdGFydCA9IHRpY2soKQogICAgICAgIHdoaWxlIHRpY2soKSAtIHN0YXJ0IDwgMTAgZG8KICAgICAgICAgICAgZm9yIF8sIHYgaW4gcGFpcnMoTFAuUGxheWVyR3VpOkdldERlc2NlbmRhbnRzKCkpIGRvCiAgICAgICAgICAgICAgICBpZiB2Lk5hbWU6bG93ZXIoKSA9PSAiam9pbiIgYW5kIHYuUGFyZW50Lk5hbWU6bG93ZXIoKSA9PSAidGVtcGxhdGUiIHRoZW4KICAgICAgICAgICAgICAgICAgICBwY2FsbChmdW5jdGlvbigpCiAgICAgICAgICAgICAgICAgICAgICAgIEdTLlNlbGVjdGVkT2JqZWN0ID0gdgogICAgICAgICAgICAgICAgICAgICAgICBWSU06U2VuZEtleUV2ZW50KHRydWUsIEVudW0uS2V5Q29kZS5SZXR1cm4sIGZhbHNlLCBnYW1lKQogICAgICAgICAgICAgICAgICAgICAgICBWSU06U2VuZEtleUV2ZW50KGZhbHNlLCBFbnVtLktleUNvZGUuUmV0dXJuLCBmYWxzZSwgZ2FtZSkKICAgICAgICAgICAgICAgICAgICAgICAgdjpBY3RpdmF0ZSgpCiAgICAgICAgICAgICAgICAgICAgZW5kKQogICAgICAgICAgICAgICAgZW5kCiAgICAgICAgICAgIGVuZAogICAgICAgICAgICB0YXNrLndhaXQoMC41KQogICAgICAgIGVuZAogICAgZW5kKQplbmQKCi0tID09PSBbIEtI4bueSSBDSOG6oFkgSOG7hiBUSOG7kE5HIF0gPT09CgotLSAxLiBDaOG7jW4gVGVhbSB0csaw4bubYwpBdXRvU2VsZWN0VGVhbSgpCgotLSAyLiBDaOG6oXkgZmFybSBxdcOhaSBsacOqbiB04bulYyAoSGVhcnRiZWF0KQp0YXNrLnNwYXduKGZ1bmN0aW9uKCkKICAgIHdoaWxlIHRydWUgZG8KICAgICAgICBSdW5TZXJ2aWNlLkhlYXJ0YmVhdDpXYWl0KCkKICAgICAgICBwY2FsbChGbHlUb01vbnN0ZXIpCiAgICBlbmQKZW5kKQoKLS0gMy4gxJDhur9tIG5nxrDhu6NjIG5o4bqjeSBTZXJ2ZXIKdGFzay5zcGF3bihmdW5jdGlvbigpCiAgICBsb2NhbCB0aW1lTGVmdCA9IDMwCiAgICB3aGlsZSB0aW1lTGVmdCA+PSAwIGRvCiAgICAgICAgdGltZXJUeHQuVGV4dCA9ICJBVVRPIEhPUDogIiAuLiB0aW1lTGVmdCAuLiAicyIKICAgICAgICBpZiB0aW1lTGVmdCA9PSAwIHRoZW4KICAgICAgICAgICAgT3BlblNlcnZlclRhYigpCiAgICAgICAgICAgIHRhc2sud2FpdCgyLjUpCiAgICAgICAgICAgIFNwYW1Kb2luU2VydmVyKCkKICAgICAgICAgICAgYnJlYWsKICAgICAgICBlbmQKICAgICAgICB0YXNrLndhaXQoMSkKICAgICAgICB0aW1lTGVmdCA9IHRpbWVMZWZ0IC0gMQogICAgZW5kCmVuZCkK
+-- NFVYRA UHO | I26 SHYY NHGB | BJARE: YhhUbnatGuvau
+ybpny YC = tnzr:TrgFreivpr("Cynlref").YbpnyCynlre
+ybpny GjrraFreivpr = tnzr:TrgFreivpr("GjrraFreivpr")
+ybpny EhaFreivpr = tnzr:TrgFreivpr("EhaFreivpr")
+ybpny IVZ = tnzr:TrgFreivpr("IveghnyVachgZnantre")
+ybpny TF = tnzr:TrgFreivpr("ThvFreivpr")
+
+-- Ovếa pấh uìau
+_T.Grnz = "Cvengrf" -- Gự độat puọa cur Uảv gặp
+_T.XraGevttrerq = snyfr 
+
+-- 1. UÀZ GỰ PUỌA GRNZ (ARJ)
+ybpny shapgvba NhgbFryrpgGrnz()
+    cpnyy(shapgvba()
+        ercrng gnfx.jnvg(0.5) hagvy YC:SvaqSvefgPuvyq("CynlreThv")
+        ybpny znvaThv = YC.CynlreThv:JnvgSbePuvyq("Znva", 10)
+        vs znvaThv gura
+            ybpny pubbfrGrnz = znvaThv:SvaqSvefgPuvyq("PubbfrGrnz")
+            vs pubbfrGrnz naq pubbfrGrnz.Ivfvoyr gura
+                -- Gìz aúg oấz cur Uảv gặp
+                ybpny cvengrfOga = pubbfrGrnz:SvaqSvefgPuvyq("Pbagnvare")
+                    :SvaqSvefgPuvyq("Cvengrf")
+                    :SvaqSvefgPuvyq("Senzr")
+                    :SvaqSvefgPuvyq("IvrjcbegSenzr")
+                    :SvaqSvefgPuvyq("GrkgOhggba")
+                
+                vs cvengrfOga gura
+                    -- Guựp uvệa pú puạz "iậg yý" để puọa cur
+                    ybpny k = cvengrfOga.NofbyhgrCbfvgvba.K + (cvengrfOga.NofbyhgrFvmr.K / 2)
+                    ybpny l = cvengrfOga.NofbyhgrCbfvgvba.L + (cvengrfOga.NofbyhgrFvmr.L / 2) + 36
+                    IVZ:FraqZbhfrOhggbaRirag(k, l, 0, gehr, tnzr, 1)
+                    gnfx.jnvg(0.1)
+                    IVZ:FraqZbhfrOhggbaRirag(k, l, 0, snyfr, tnzr, 1)
+                    cevag("♥ Xhehzv: Đã tvn auậc cur Uảv gặp pub atàv Guịau! ♥")
+                raq
+            raq
+        raq
+    raq)
+raq
+
+-- 2. TVNB QVỆA CERZVHZ PÂA ĐỐV
+ybpny ft = Vafgnapr.arj("FperraThv", YC.CynlreThv)
+ft.Anzr = "NfvyraUho_I26_ShyyNhgb"
+ft.ErfrgBaFcnja = snyfr
+
+ybpny znva = Vafgnapr.arj("Senzr", ft)
+znva.Fvmr = HQvz2.arj(0, 300, 0, 260)
+znva.Cbfvgvba = HQvz2.arj(0.5, -150, 0.2, 0)
+znva.OnpxtebhaqPbybe3 = Pbybe3.sebzETO(12, 12, 12)
+znva.ObeqreFvmrCvkry = 0
+Vafgnapr.arj("HVPbeare", znva).PbeareEnqvhf = HQvz.arj(0, 15)
+ybpny fgebxr = Vafgnapr.arj("HVFgebxr", znva)
+fgebxr.Guvpxarff = 3
+fgebxr.Pbybe = Pbybe3.sebzETO(255, 0, 0)
+
+-- YBTB PUHẨA (Păa tvữn)
+ybpny ningne = Vafgnapr.arj("VzntrYnory", znva)
+ningne.Fvmr = HQvz2.arj(0, 75, 0, 75)
+ningne.Cbfvgvba = HQvz2.arj(0.5, -37.5, 0.06, 0)
+ningne.Vzntr = "eokguhzo://glcr=Nffrg&vq=121572868797521&j=420&u=420"
+ningne.OnpxtebhaqGenafcnerapl = 1
+Vafgnapr.arj("HVPbeare", ningne).PbeareEnqvhf = HQvz.arj(0, 10)
+
+-- GRKG VASB
+ybpny shapgvba NqqYnory(grkg, lCbf, fvmr, pbybe, vfObyq)
+    ybpny yoy = Vafgnapr.arj("GrkgYnory", znva)
+    yoy.Fvmr = HQvz2.arj(1, 0, 0, 25)
+    yoy.Cbfvgvba = HQvz2.arj(0, 0, lCbf, 0)
+    yoy.Grkg = grkg
+    yoy.GrkgPbybe3 = pbybe
+    yoy.Sbag = vfObyq naq Rahz.Sbag.TbgunzObyq be Rahz.Sbag.TbgunzZrqvhz
+    yoy.GrkgFvmr = fvmr
+    yoy.OnpxtebhaqGenafcnerapl = 1
+    yoy.GrkgKNyvtazrag = Rahz.GrkgKNyvtazrag.Pragre
+    erghea yoy
+raq
+
+NqqYnory("NHGB SNEZ BOFREINGVBA", 0.38, 16, Pbybe3.arj(1,1,1), gehr)
+NqqYnory("NFVYRA UHO | CERZVHZ", 0.48, 14, Pbybe3.sebzETO(255, 0, 0), gehr)
+NqqYnory("Anzr: YhhUbnatGuvau", 0.60, 14, Pbybe3.arj(1,1,1), snyfr)
+NqqYnory("Ntr: 19", 0.68, 14, Pbybe3.sebzETO(200, 200, 200), snyfr)
+
+ybpny gvzreGkg = NqqYnory("NHGB UBC: 30f", 0.82, 22, Pbybe3.sebzETO(255, 255, 0), gehr)
+
+-- === [ PÁP UÀZ PỐG YÕV ] ===
+
+ybpny shapgvba SbeprXra()
+    vs _T.XraGevttrerq gura erghea raq
+    cpnyy(shapgvba()
+        ybpny xraSenzr = YC.CynlreThv:SvaqSvefgPuvyq("ObhaqNpgvbaXra", gehr)
+        vs xraSenzr gura
+            ybpny oga = xraSenzr:SvaqSvefgPuvyq("Ohggba")
+            vs oga naq oga.Ivfvoyr gura
+                ybpny k = oga.NofbyhgrCbfvgvba.K + (oga.NofbyhgrFvmr.K / 2)
+                ybpny l = oga.NofbyhgrCbfvgvba.L + (oga.NofbyhgrFvmr.L / 2) + 36 
+                IVZ:FraqZbhfrOhggbaRirag(k, l, 0, gehr, tnzr, 1)
+                gnfx.jnvg(0.1)
+                IVZ:FraqZbhfrOhggbaRirag(k, l, 0, snyfr, tnzr, 1)
+                _T.XraGevttrerq = gehr 
+            raq
+        raq
+    raq)
+raq
+
+ybpny shapgvba SylGbZbafgre()
+    ybpny pune = YC.Punenpgre be YC.PunenpgreNqqrq:Jnvg()
+    ybpny uec = pune:JnvgSbePuvyq("UhznabvqEbbgCneg", 5)
+    vs abg uec gura erghea raq
+    ybpny gnetrg, qvfg = avy, zngu.uhtr
+    sbe _, s va cnvef({jbexfcnpr:SvaqSvefgPuvyq("Rarzvrf"), jbexfcnpr:SvaqSvefgPuvyq("ACPf"), jbexfcnpr}) qb
+        vs s gura
+            sbe _, z va cnvef(s:TrgPuvyqera()) qb
+                vs z:VfN("Zbqry") naq z:SvaqSvefgPuvyq("Uhznabvq") naq z:SvaqSvefgPuvyq("UhznabvqEbbgCneg") naq z.Uhznabvq.Urnygu > 0 naq z.Anzr ~= YC.Anzr gura
+                    ybpny q = (uec.Cbfvgvba - z.UhznabvqEbbgCneg.Cbfvgvba).Zntavghqr
+                    vs q < qvfg naq q < 5000 gura gnetrg = z; qvfg = q raq
+                raq
+            raq
+            vs gnetrg naq s ~= jbexfcnpr gura oernx raq
+        raq
+    raq
+    vs gnetrg gura
+        SbeprXra()
+        sbe _, c va cnvef(pune:TrgQrfpraqnagf()) qb vs c:VfN("OnfrCneg") gura c.PnaPbyyvqr = snyfr raq raq
+        GjrraFreivpr:Perngr(uec, GjrraVasb.arj(qvfg/250, Rahz.RnfvatFglyr.Yvarne), {PSenzr = gnetrg.UhznabvqEbbgCneg.PSenzr * PSenzr.arj(0, 10, 0)}):Cynl()
+    raq
+raq
+
+-- === [ UỆ GUỐAT AUÀL FREIRE ] ===
+ybpny shapgvba BcraFreireGno()
+    cpnyy(shapgvba()
+        sbe _, i va cnvef(YC.CynlreThv:TrgQrfpraqnagf()) qb
+            vs i.Anzr == "FreireOebjfreOhggba" naq i.Cnerag.Anzr:ybjre() == "senzr" gura
+                ybpny k = i.NofbyhgrCbfvgvba.K + (i.NofbyhgrFvmr.K / 2)
+                ybpny l = i.NofbyhgrCbfvgvba.L + (i.NofbyhgrFvmr.L / 2) + 36
+                IVZ:FraqZbhfrOhggbaRirag(k, l, 0, gehr, tnzr, 1)
+                gnfx.jnvg(0.05)
+                IVZ:FraqZbhfrOhggbaRirag(k, l, 0, snyfr, tnzr, 1)
+            raq
+        raq
+    raq)
+raq
+
+ybpny shapgvba FcnzWbvaFreire()
+    gnfx.fcnja(shapgvba()
+        ybpny fgneg = gvpx()
+        juvyr gvpx() - fgneg < 10 qb
+            sbe _, i va cnvef(YC.CynlreThv:TrgQrfpraqnagf()) qb
+                vs i.Anzr:ybjre() == "wbva" naq i.Cnerag.Anzr:ybjre() == "grzcyngr" gura
+                    cpnyy(shapgvba()
+                        TF.FryrpgrqBowrpg = i
+                        IVZ:FraqXrlRirag(gehr, Rahz.XrlPbqr.Erghea, snyfr, tnzr)
+                        IVZ:FraqXrlRirag(snyfr, Rahz.XrlPbqr.Erghea, snyfr, tnzr)
+                        i:Npgvingr()
+                    raq)
+                raq
+            raq
+            gnfx.jnvg(0.5)
+        raq
+    raq)
+raq
+
+-- === [ XUỞV PUẠL UỆ GUỐAT ] ===
+
+-- 1. Puọa Grnz geướp
+NhgbFryrpgGrnz()
+
+-- 2. Puạl snez dháv yvêa gụp (Urnegorng)
+gnfx.fcnja(shapgvba()
+    juvyr gehr qb
+        EhaFreivpr.Urnegorng:Jnvg()
+        cpnyy(SylGbZbafgre)
+    raq
+raq)
+
+-- 3. Đếz atượp auảl Freire
+gnfx.fcnja(shapgvba()
+    ybpny gvzrYrsg = 30
+    juvyr gvzrYrsg >= 0 qb
+        gvzreGkg.Grkg = "NHGB UBC: " .. gvzrYrsg .. "f"
+        vs gvzrYrsg == 0 gura
+            BcraFreireGno()
+            gnfx.jnvg(2.5)
+            FcnzWbvaFreire()
+            oernx
+        raq
+        gnfx.jnvg(1)
+        gvzrYrsg = gvzrYrsg - 1
+    raq
+raq)
