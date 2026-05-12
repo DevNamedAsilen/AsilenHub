@@ -1,0 +1,105 @@
+-- [[ ASILEN HUB | V73 - ANTI-AFK SUPREME ]]
+if not game:IsLoaded() then game.Loaded:Wait() end
+
+-- [CẤU HÌNH CỦA ASILEN-SAMA]
+getgenv().Config = {
+    Enabled = true,
+    Team = "Marines",
+    StartDelay = 3, 
+    WaitAtChest = 0.01
+}
+
+local LP = game:GetService("Players").LocalPlayer
+local RS = game:GetService("RunService")
+local TeleportService = game:GetService("TeleportService")
+local HttpService = game:GetService("HttpService")
+local Remotes = game:GetService("ReplicatedStorage").Remotes
+local VU = game:GetService("VirtualUser")
+
+-- 1. CHỌN TEAM
+pcall(function()
+    Remotes.CommF_:InvokeServer("SetTeam", getgenv().Config.Team)
+end)
+
+-- 2. ĐỢI 3 GIÂY SAU KHI CHỌN TEAM MỚI CHẠY
+task.wait(getgenv().Config.StartDelay)
+
+-- HỆ THỐNG ANTI-AFK (CHỐNG VĂNG KHI TREO MÁY)
+LP.Idled:Connect(function()
+    VU:CaptureController()
+    VU:ClickButton2(Vector2.new())
+    print("Asilen-Sama: Đã ngăn chặn AFK thành công!")
+end)
+
+-- HÀM NHẢY SERVER (CHỐNG FULL & SPAM JOIN)
+local function ServerHop()
+    while task.wait(1) do
+        local success, result = pcall(function()
+            return HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"))
+        end)
+        if success and result then
+            for _, server in pairs(result.data) do
+                if server.playing < (server.maxPlayers - 3) and server.id ~= game.JobId then
+                    TeleportService:TeleportToPlaceInstance(game.PlaceId, server.id)
+                    task.wait(2)
+                end
+            end
+        end
+    end
+end
+
+-- TỰ ĐỔI SERVER KHI BỊ KICK
+game:GetService("CoreGui").RobloxPromptGui.promptOverlay.ChildAdded:Connect(function(child)
+    if child.Name == "ErrorPrompt" then ServerHop() end
+end)
+
+-- NOCLIP XUYÊN TƯỜNG
+RS.Stepped:Connect(function()
+    if LP.Character and LP.Character:FindFirstChild("HumanoidRootPart") then
+        for _, v in pairs(LP.Character:GetDescendants()) do
+            if v:IsA("BasePart") then v.CanCollide = false end
+        end
+        LP.Character.HumanoidRootPart.Velocity = Vector3.new(0, 0, 0)
+    end
+end)
+
+-- LOGIC QUÉT MỤC TIÊU
+local function GetTarget()
+    -- ƯU TIÊN 1: TRÁI ÁC QUỶ
+    for _, v in pairs(game.Workspace:GetChildren()) do
+        if v:IsA("Tool") and (v.Name:find("Fruit") or v:FindFirstChild("Handle")) then
+            return v:FindFirstChild("Handle") or v, "Fruit"
+        end
+    end
+    -- ƯU TIÊN 2: RƯƠNG
+    for _, v in pairs(game.Workspace:GetDescendants()) do
+        if v:IsA("BasePart") and (v.Name == "Chest3" or v.Name == "Chest2") and v:FindFirstChild("TouchInterest") then
+            return v, "Chest"
+        end
+    end
+    return nil, nil
+end
+
+task.spawn(function()
+    while getgenv().Config.Enabled do
+        task.wait(0.05)
+        local target, type = GetTarget()
+        if target then
+            -- Nhảy khi tele
+            if LP.Character:FindFirstChild("Humanoid") then LP.Character.Humanoid.Jump = true end
+            
+            LP.Character.HumanoidRootPart.CFrame = target.CFrame
+            
+            if type == "Fruit" then
+                task.wait(0.5)
+                Remotes.CommF_:InvokeServer("StoreFruit", target.Parent.Name, target.Parent)
+            else
+                firetouchinterest(LP.Character.HumanoidRootPart, target, 0)
+                task.wait(getgenv().Config.WaitAtChest)
+                firetouchinterest(LP.Character.HumanoidRootPart, target, 1)
+            end
+        else
+            ServerHop()
+        end
+    end
+end)
